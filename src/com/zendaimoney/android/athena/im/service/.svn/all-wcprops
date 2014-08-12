@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service
+END
+ConnectListenerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service/ConnectListenerService.java
+END
+AlarmAlertWakeLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service/AlarmAlertWakeLock.java
+END
+IMChatService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service/IMChatService.java
+END
+MyAlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service/MyAlarmReceiver.java
+END
+AlarmScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/service/AlarmScheduler.java
+END

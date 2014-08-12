@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEEEFF"
+    android:orientation="vertical" >
+        <TextView
+            android:id="@+id/ivTitleName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp"
+            android:textStyle="bold" 
+            android:background="@color/bule"/>
+        
+               
+    
+    <ExpandableListView
+        android:id="@+id/main_expand_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        
+        android:scrollbars="none" /><!-- android:divider="@drawable/divider_group"
+        android:groupIndicator="@drawable/expand_group" -->
+
+</LinearLayout>

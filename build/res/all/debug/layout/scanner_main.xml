@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mianbg"
+    android:orientation="vertical" >
+
+    <!-- 表头  申请标签和返回按钮 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/headerbg" 
+        android:id="@+id/title">
+
+        <!-- 99cccc  339999 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/custom_manage"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/exitbtn" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/salary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	>
+
+            <ImageView android:id="@+id/salary_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/salary_img"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/salary_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/salarywarn"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/salarywran_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            <ImageView android:id="@+id/goicon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/goicon"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line"/>
+        
+        <RelativeLayout
+            android:id="@+id/brith"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+			<ImageView android:id="@+id/brith_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/brith_img"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/brith_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/brithwarn"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/brithwran_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:textColor="@android:color/white"
+                android:text="0"
+                android:textSize="20sp" />
+            
+            <ImageView android:id="@+id/goicon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/goicon"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line"/>
+        
+        <RelativeLayout
+            android:id="@+id/usernum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageView android:id="@+id/user_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/user_img"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/usenum_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/usenumtitile"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/usenum"
+                android:layout_toRightOf="@+id/usenum_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/usernum"
+                android:text="0"
+                android:textSize="20sp" />
+            
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wei"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_toRightOf="@+id/usenum"
+                android:layout_centerVertical="true"/>
+            
+            <ImageView android:id="@+id/goicon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/goicon"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line"/>
+        <RelativeLayout
+            android:id="@+id/chat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	>
+			
+            <ImageView android:id="@+id/chat_img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_img"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/chat_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/chattxt"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            <ImageView android:id="@+id/unread_icom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/unread_icon"
+                android:paddingTop="5dp"
+                android:layout_toRightOf="@+id/chat_title"
+                android:visibility="gone"
+                />"
+
+            <TextView
+                android:id="@+id/chat_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+            <ImageView android:id="@+id/goicon5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/goicon"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line"/>
+        
+        <LinearLayout
+                android:id="@+id/scanlogo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/scanlogo"
+            />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/scanbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/inputbg"
+            android:text="@string/scanner"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/svn/app-android/Athenabranch/res/layout/scanner_main.xml -->

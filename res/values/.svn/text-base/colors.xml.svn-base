@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+ <!-- 白色 -->
+    <color name="blackgrey">#333333</color>
+ <!-- 黑灰色  字体颜色 -->
+
+    <color name="lightgrey">#cccccc</color>
+ <!-- 浅灰色 -->
+
+    <color name="backgroundgrey">#ccccff</color>
+    <color name="tran">#000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="usernum">#ffc87a</color>
+    <color name="buleline">#bce5f7</color>
+    <color name="line">#ededed</color>
+    <color name="callcolor">#28badf</color>
+    <color name="chatcolor">#2ac6ed</color>
+    <color name="bule">#018dc8</color>
+    <color name="black">#000000</color>
+    <color name="lightgray">#c0c0c0</color>
+    <color name="white2">#dddddd</color>
+    <color name="white3">#EEEEFF</color>
+    <color name="biaotoutxtcolor">#08b9cd</color>
+	<color name="grey">#ECECEC</color>
+	<color name="inputbox">#96c1e1</color>
+</resources>

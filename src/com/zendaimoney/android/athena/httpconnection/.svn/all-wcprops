@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection
+END
+CommandExecuter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/CommandExecuter.java
+END
+CommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/CommandFactory.java
+END
+ValidateAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/ValidateAccount.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/Login.java
+END
+BaseCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/BaseCommand.java
+END
+BaseResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/BaseResponse.java
+END
+DefaultCommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httpconnection/DefaultCommandFactory.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson
+END
+BrithListParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/BrithListParse.java
+END
+RelevanceCustomerParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/RelevanceCustomerParse.java
+END
+ValidateAccountParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/ValidateAccountParse.java
+END
+SalaryListParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/SalaryListParse.java
+END
+LoginParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/LoginParse.java
+END
+RemindInfoParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/RemindInfoParse.java
+END
+ConfirmParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/ConfirmParse.java
+END
+CustomerInfoParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/CustomerInfoParse.java
+END
+CustomerNumParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/parsejson/CustomerNumParse.java
+END

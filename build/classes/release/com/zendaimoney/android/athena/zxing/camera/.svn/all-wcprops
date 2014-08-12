@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera
+END
+CameraConfigurationManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/CameraConfigurationManager.class
+END
+PlanarYUVLuminanceSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/PlanarYUVLuminanceSource.class
+END
+PreviewCallback.class
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/PreviewCallback.class
+END
+FlashlightManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/FlashlightManager.class
+END
+CameraManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/CameraManager.class
+END
+AutoFocusCallback.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/release/com/zendaimoney/android/athena/zxing/camera/AutoFocusCallback.class
+END

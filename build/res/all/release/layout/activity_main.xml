@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/mianbg"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- 表头  申请标签和返回按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerbg" >
+
+        <!-- 99cccc  339999 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/custom_manage"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/logo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/centerlog" />
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:gravity="center_vertical" 
+                    android:id="@+id/user_input">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/people"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" 
+                        android:id="@+id/user_img"/>
+
+                    <EditText
+                        android:id="@+id/account"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/account_rem"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dip"
+                    android:background="@color/white" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/pwd_input" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/lock"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" 
+                        android:id="@+id/pwd_img"></TextView>"
+
+                    <EditText
+                        android:id="@+id/passwd"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/passwd_rem"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:password="true"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dip"
+                    android:background="@color/white" />
+            </TableLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputbg"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/svn/app-android/Athenabranch/res/layout/activity_main.xml -->

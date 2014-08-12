@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/zendaimoney/!svn/ver/35077/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil
+END
+CustomerHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil/CustomerHttpClient.java
+END
+EasySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil/EasySSLSocketFactory.java
+END
+EasyX509TrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil/EasyX509TrustManager.java
+END
+UrlStrings.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/zendaimoney/!svn/ver/29817/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil/UrlStrings.java
+END
+HttpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/zendaimoney/!svn/ver/35077/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/httputil/HttpUtil.java
+END

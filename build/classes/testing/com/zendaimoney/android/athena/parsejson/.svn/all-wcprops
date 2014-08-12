@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson
+END
+CustomerNumParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/CustomerNumParse.class
+END
+BrithListParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/BrithListParse.class
+END
+RelevanceCustomerParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/RelevanceCustomerParse.class
+END
+ValidateAccountParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/ValidateAccountParse.class
+END
+SalaryListParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/SalaryListParse.class
+END
+LoginParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/LoginParse.class
+END
+RemindInfoParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/RemindInfoParse.class
+END
+ConfirmParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/ConfirmParse.class
+END
+CustomerInfoParse.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/testing/com/zendaimoney/android/athena/parsejson/CustomerInfoParse.class
+END

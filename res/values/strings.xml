@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">证大财富CRM</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wait_in_progress">加载中，请稍候...</string>
+    
+    <!-- login ui -->
+	<string name="custom_manage">客户管理</string>
+	<string name="account">账号:</string>
+	<string name="passwd">密码:</string>
+	<string name="account_rem">请输入CRM系统登陆账号</string>
+	<string name="passwd_rem">请输入CRM系统登陆密码</string>
+	<string name="login">登录</string>
+	
+	<!-- scan main ui -->
+	<string name="scanner">扫一扫</string>
+	<string name="salarywarn">投资到期提醒</string>
+	<string name="brithwarn">客户生日提醒</string>
+	<string name="cant_get_remind_num">获取提醒信息数量失败！您可以尝试直接查看提醒信息列表</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="usenumtitile">您的客户有</string>
+	<string name="wei">位</string>
+	<string name="getcustomfail">获取客户数量失败</string>
+	<string name="chattxt">证大聊天</string>
+	
+	<!-- remind list ui -->
+	<string name="brith_remind_list">生日提醒</string>
+	<string name="salary_remind_list">到期提醒</string>
+	<string name="get_brith_remind_fail">获取生日提醒信息失败！请稍候再试</string>
+	<string name="get_salary_remind_fail">获取投资提醒信息失败！请稍候再试</string>
+	
+	<!-- 二维码扫面界面 -->
+	<string name="dimenscan">二维码扫描</string>
+	<string name="scan_text">将二维码图案放在取景框内, 即可自动扫描</string>
+	
+	<!-- remind info string -->
+	<string name="usernull">账号不能为空！</string>
+	<string name="pwdnull">密码不能为空！</string>
+	<string name="internetwrong">网络连接错误！</string>
+	<string name="userpwdwrong">用户名或密码错误！</string>
+	<string name="relevancesuc">关联成功，对方已经是您的客户！</string>
+	<string name="relevancefail">关联失败！</string>
+	<string name="remind">提示</string>
+	<string name="ok">好的</string>
+	<string name="cancal">取消</string>
+	<string name="confirmval">是否确认在PC端登陆您的账号</string>
+	<string name="valfail">PC端登陆失败，请稍候重试！</string>
+	<string name="login_suc_pc">PC端已经成功登陆！</string>
+	<string name="login_pc_fail">PC端登陆失败，请稍候重试！</string>
+	<string name="netfail">您的网络不给力，请确认是否已经打开网络或者稍候再试</string>
+	<string name="timeout">网络连接超时，请确认是否已经打开网络连接！</string>
+	<string name="cancel_login_fail">服务故障</string>
+	<string name="cancel_login_suc">已经取消登陆</string>
+	
+	<!-- customer info List -->
+	<string name="dt">跟进日期</string>
+	<string name="id_num">证件号</string>
+	<string name="ifcall">是否确认拨打客户</string>
+	<string name="phone">电话:</string>
+	<string name="surecall">确认拨打</string>
+	<string name="cancelcall">取消拨打</string>
+	<string name="customer_num_head">我的客户</string>
+	
+	<!-- chat message list -->
+	<string name="chathead">聊天</string>
+	
+	
+	<string name="login_title">登录设置</string>
+    <string name="save_checkbox">保存账户</string>
+    <string name="login_btn">登录</string>
+    <string name="reset_btn">重置</string>
+    <string name="loginName">账户</string>
+    <string name="password">密码</string> 
+    <string name="remember_password">记住密码</string> 
+    <string name="hide_login">隐身登录</string>
+    <string name="auto_login">自动登录</string> 
+
+    <string name="menu_contacts_add">添加联系人</string>
+    <string name="menu_contacts_group_add">添加联系人分组</string>
+    <string name="menu_contacts_group_rename">重命名联系人分组</string>
+    <string name="menu_contacts_group_move">移动联系人分组</string>
+    <string name="add">添加</string>
+    <string name="save">保存</string> 
+    <string name="group">分组</string>
+    <string name="group_name">分组名称</string>
+    <string name="company_name">公司名称</string>
+    <string name="position">职位</string>
+    <string name="remark">备注</string> 
+    <string name="move_to">移动到</string> 
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+  	<string name="pcontacts_info">联系人信息</string>  
+  	<string name="my_folder">个人文件夹</string>
+  	<string name="menu_contacts_modify">联系人修改</string> 
+  	<!-- 登录提示 -->
+    <string name="message_invalid_username_password">错误的用户名或密码</string>
+    <string name="message_server_unavailable">无法连接到聊天服务器</string>
+    <string name="message_user_disabled">用户被禁用</string>
+    <string name="message_user_expired">账户已过期</string>
+    <string name="message_userip_no_access">IP不合法,已被禁用</string>
+    <string name="unrecoverable_error">发生未知异常,连接失败</string>
+  	<!-- 网络和内存卡提示 -->
+    <string name="prompt">提示</string>
+    <string name="check_connection">无可用网络连接，请检查网络设置！</string>
+    <string name="check_sdcard">请检查内存卡！</string>
+ 	<string name="menu_settings">设置</string>
+ 	<string name="close">关闭</string>
+	<string name="exit">退出</string>
+	<string name="confirm">确定</string>
+	<string name="cancel">取消</string>
+	<!-- 聊天记录 -->
+	<string name="failedconnection">网络连接不可用，请检查网络设置</string>
+	<string name="chat_exprot">导出</string>
+    <string name="chat_delete">删除</string>
+    <string name="chat_clear">清空</string> 
+    <string name="chat_check_history">查看聊天记录</string>
+    <string name="chat_his_with_sb">与%1$s的聊天记录</string>
+    <!-- 我的消息 -->
+    <string name="check_sys_msg">查看系统消息</string>
+    <string name="delete_user_confim">删除用户会将该用户所有聊天记录一并删除，是否继续?</string>
+    <string name="new_message">收到新短消息</string>
+    <!-- 添加好友 -->
+    <string  name="input_username">输入用户名</string>
+    <string  name="set_nickname">设置昵称</string>
+    <string  name="username_not_null">用户名不允许为空</string>
+    <string  name="username_exist">好友已存在</string>
+    <!-- 系统消息列表 -->
+    <string  name="at_the_last">已经到达最后一页</string>
+    
+    <!-- 缺省的服务器配置 --> 
+    <integer name="xmpp_port">5222</integer> 
+<!--     <string name="xmpp_host">talk.google.com</string>
+    <string name="xmpp_service_name">gmail.com</string> -->
+    <bool name="is_remember">true</bool>
+    <bool name="is_autologin">false</bool>
+    <bool name="is_novisible">false</bool> 
+    
+	<!-- 数据库和文件路径 -->
+	<string name="dir">/Athena</string>
+	<string name="app_dir">/app</string>
+	<string name="db_dir">/database</string>
+	<string name="img_dir">/img</string> 
+</resources>

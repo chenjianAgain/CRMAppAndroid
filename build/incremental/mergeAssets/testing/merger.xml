@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\svn\app-android\Athenabranch\assets" />
+    </dataSet>
+    <dataSet config="testing" >
+        <source path="D:\svn\app-android\Athenabranch\build-types\testing\assets" />
+    </dataSet>
+
+</merger>

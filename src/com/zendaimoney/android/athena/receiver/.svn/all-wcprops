@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/receiver
+END
+NetChangeReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/receiver/NetChangeReceiver.java
+END
+ShutDownBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/receiver/ShutDownBroadcastReceiver.java
+END
+BootBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/receiver/BootBroadcastReceiver.java
+END

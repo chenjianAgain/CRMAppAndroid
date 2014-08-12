@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager
+END
+MessageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/MessageManager.java
+END
+XmppConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/XmppConnectionManager.java
+END
+OfflineMsgManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/OfflineMsgManager.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/UserManager.java
+END
+NoticeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/NoticeManager.java
+END
+ContacterManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/manager/ContacterManager.java
+END

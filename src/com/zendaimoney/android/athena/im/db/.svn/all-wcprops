@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/db
+END
+DBManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/db/DBManager.java
+END
+DataBaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/db/DataBaseHelper.java
+END
+SDCardSQLiteOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/db/SDCardSQLiteOpenHelper.java
+END
+SQLiteTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/db/SQLiteTemplate.java
+END

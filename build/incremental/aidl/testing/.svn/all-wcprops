@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/incremental/aidl/testing
+END
+dependency.store
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/incremental/aidl/testing/dependency.store
+END
+inputs.data
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/incremental/aidl/testing/inputs.data
+END
+outputs.data
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/incremental/aidl/testing/outputs.data
+END

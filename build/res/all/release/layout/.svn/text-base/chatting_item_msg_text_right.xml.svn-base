@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/me"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/tv_chatcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_userhead"
+            android:background="@drawable/chatto_bg_normal"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        
+        <ImageView android:id="@+id/send_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/im_send_erro"
+            android:layout_toLeftOf="@id/tv_chatcontent"
+            android:visibility="gone"/>
+ <!-- chatto_bg_normal -->
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/iv_userhead"
+            android:layout_toRightOf="@id/tv_chatcontent"
+            android:visibility="gone" />
+        
+        <TextView
+            android:id="@+id/audiotime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/tv_chatcontent"
+            android:text="5&apos;&apos;"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+		<ImageView android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/time"/>
+        <TextView
+            android:id="@+id/tv_sendtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textColor="@color/lightgray" />
+ <!-- style="@style/chat_text_date_style" -->
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/svn/app-android/Athenabranch/res/layout/chatting_item_msg_text_right.xml -->

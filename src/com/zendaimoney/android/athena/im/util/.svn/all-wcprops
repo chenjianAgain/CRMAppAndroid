@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/util
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/zendaimoney/!svn/ver/32743/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/util/StringUtil.java
+END
+XmppConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/zendaimoney/!svn/ver/34599/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/util/XmppConnectionListener.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/util/DateUtil.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/zendaimoney/!svn/ver/34951/Prometheus/code/trunk/android/Athena/src/com/zendaimoney/android/athena/im/util/FileUtil.java
+END

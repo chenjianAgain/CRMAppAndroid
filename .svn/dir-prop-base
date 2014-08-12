@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 15
+bin
+gen
+target
+
+K 13
+svn:mergeinfo
+V 96
+/Prometheus/code/branches/android/Athena:29817-35099
+/Prometheus/code/trunk/android/Athena:32741
+END

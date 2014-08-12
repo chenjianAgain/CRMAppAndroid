@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="smileys" translatable="false">
+        
+        
+        
+     <item>[微笑]</item>
+	<item>[大笑]</item>
+	<item>[鼓掌]</item>
+	<item>[哦耶]</item>
+	<item>[我汗]</item>
+	<item>[金钱]</item>
+	<item>[疑惑]</item>
+	<item>[闭嘴]</item>
+	<item>[爱心]</item>
+	<item>[好棒]</item>
+	<item>[心碎]</item>
+	<item>[好的]</item>
+	<item>[不屑]</item>
+	<item>[玫瑰]</item>
+	<item>[生气]</item>
+	<item>[喜欢]</item>
+	<item>[哭泣]</item>
+	<item>[晕掉]</item>
+	<item>[拜托]</item>
+	<item>[好困]</item>
+	
+	<item>[银子]</item>
+	<item>[美元]</item>
+	<item>[下滑]</item>
+	<item>[上升]</item>
+	<item>[礼物]</item>
+	<item>[蛋糕]</item>
+	<item>[礼花]</item>
+	<item>[握手]</item>
+	<item>[有钱]</item>
+	<item>[招财]</item>
+	
+        
+<!--         <item>/sbq_001</item>
+        <item>/sbq_002</item>
+        <item>/sbq_003</item>
+        <item>/sbq_004</item>
+        <item>/sbq_005</item>
+        <item>/sbq_006</item>
+        <item>/sbq_007</item>
+        <item>/sbq_008</item>
+        <item>/sbq_009</item>
+        <item>/sbq_010</item>
+        <item>/sbq_011</item>
+        <item>/sbq_012</item>
+        <item>/sbq_013</item>
+        <item>/sbq_014</item>
+        <item>/sbq_015</item>
+        <item>/sbq_016</item>
+        <item>/sbq_017</item>
+        <item>/sbq_018</item>
+        <item>/sbq_019</item>
+        <item>/sbq_020</item>
+        <item>/sbq_021</item>
+        <item>/sbq_022</item>
+        <item>/sbq_023</item>
+        <item>/sbq_024</item>
+        <item>/sbq_025</item>
+        <item>/sbq_026</item>
+        <item>/sbq_027</item>
+        <item>/sbq_028</item>
+        <item>/sbq_029</item>
+        <item>/sbq_030</item>
+        <item>/sbq_031</item>
+        <item>/sbq_032</item>
+        <item>/sbq_033</item>
+        <item>/sbq_034</item>
+        <item>/sbq_035</item>
+        <item>/sbq_036</item>
+        <item>/sbq_037</item>
+        <item>/sbq_038</item>
+        <item>/sbq_039</item>
+        <item>/sbq_040</item>
+        <item>/sbq_041</item>
+        <item>/sbq_042</item>
+        <item>/sbq_043</item>
+        <item>/sbq_044</item>
+        <item>/sbq_045</item>
+        <item>/sbq_046</item>
+        <item>/sbq_047</item>
+        <item>/sbq_048</item>
+        <item>/sbq_049</item>
+        <item>/sbq_050</item>
+        <item>/sbq_051</item>
+        <item>/sbq_052</item>
+        <item>/sbq_053</item>
+        <item>/sbq_054</item>
+        <item>/sbq_055</item>
+        <item>/sbq_056</item>
+        <item>/sbq_057</item>
+        <item>/sbq_058</item>
+        <item>/sbq_059</item>
+        <item>/sbq_060</item>
+        <item>/sbq_061</item>
+        <item>/sbq_062</item>
+        <item>/sbq_063</item>
+        <item>/sbq_064</item>
+        <item>/sbq_065</item>
+        <item>/sbq_066</item>
+        <item>/sbq_067</item>
+        <item>/sbq_068</item>
+        <item>/sbq_069</item>
+        <item>/sbq_070</item>
+        <item>/sbq_071</item>
+        <item>/sbq_072</item>
+        <item>/sbq_073</item>
+        <item>/sbq_074</item>
+        <item>/sbq_075</item>
+        <item>/sbq_076</item>
+        <item>/sbq_077</item>
+        <item>/sbq_078</item>
+        <item>/sbq_079</item>
+        <item>/sbq_080</item>
+        <item>/sbq_081</item>
+        <item>/sbq_082</item>
+        <item>/sbq_083</item>
+        <item>/sbq_084</item>
+        <item>/sbq_085</item> -->
+
+    </string-array>
+    
+    
+        <string-array name="smileysidname" translatable="false">
+        
+        <item>bq_001</item>
+        <item>bq_002</item>
+        <item>bq_003</item>
+        <item>bq_004</item>
+        <item>bq_005</item>
+        <item>bq_006</item>
+        <item>bq_007</item>
+        <item>bq_008</item>
+        <item>bq_009</item>
+        <item>bq_010</item>
+        <item>bq_011</item>
+        <item>bq_012</item>
+        <item>bq_013</item>
+        <item>bq_014</item>
+        <item>bq_015</item>
+        <item>bq_016</item>
+        <item>bq_017</item>
+        <item>bq_018</item>
+        <item>bq_019</item>
+        <item>bq_020</item>
+        
+        <item>bq_022</item>
+        <item>bq_023</item>
+        <item>bq_024</item>
+        <item>bq_025</item>
+        <item>bq_026</item>
+        <item>bq_027</item>
+        <item>bq_028</item>
+        <item>bq_029</item>
+        <item>bq_030</item>
+        <item>bq_031</item>
+        
+    </string-array>
+
+</resources>

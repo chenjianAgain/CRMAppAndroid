@@ -1,0 +1,122 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="1.1.0" package="com.zendaimoney.android.athena">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- 鍦⊿DCard涓垱寤轰笌鍒犻櫎鏂囦欢鏉冮檺 -->  
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>  
+    <!-- 寰�DCard鍐欏叆鏁版嵁鏉冮檺 -->  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+    <!-- 鎷ㄦ墦鐢佃瘽鏉冮檺 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO">
+    </uses-permission>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <application android:icon="@drawable/icon_new" android:label="@string/app_name" android:name="com.zendaimoney.android.athena.AthenaApp" android:theme="@android:style/Theme.NoTitleBar">
+        
+        <activity android:label="@string/app_name" android:name="com.zendaimoney.android.athena.MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustUnspecified">
+
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.SplashScreen" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.zendaimoney.android.athena.ui.ScannerActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustUnspecified">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.SalaryRemindListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.BrithRemindListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+         <activity android:name="com.zendaimoney.android.athena.ui.CustomerListActivity" android:screenOrientation="portrait">
+             <intent-filter>
+               
+            </intent-filter>
+         </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.DimenScanActivity" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.MipcaActivityCapture" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.ChatListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zendaimoney.android.athena.ui.FriendListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+               
+            </intent-filter>
+        </activity>
+
+
+        <!-- 鑱婂ぉ -->
+        <activity android:launchMode="standard" android:name="com.zendaimoney.android.athena.im.ChatActivity" android:screenOrientation="portrait"/>
+		<!-- 鑱婂ぉ璁板綍 -->
+		<activity android:launchMode="standard" android:name="com.zendaimoney.android.athena.im.ChatHistoryActivity" android:screenOrientation="portrait"/>
+	    <!-- 鑱旂郴浜哄垪琛�-->
+	    <activity android:launchMode="standard" android:name="com.zendaimoney.android.athena.im.ContacterMainActivity" android:screenOrientation="portrait"/>
+	    
+	    
+	     
+		
+		<!-- 鑱旂郴浜烘湇鍔�-->
+		<service android:name="com.zendaimoney.android.athena.im.service.IMContactService">
+		</service>
+		<!-- 鑱婂ぉ鏈嶅姟 -->
+		<service android:name="com.zendaimoney.android.athena.im.service.IMChatService">
+		</service>  
+		
+		<service android:name="com.zendaimoney.android.athena.im.service.ReConnectService">
+		</service>  
+		<!-- 绯荤粺娑堟伅鏈嶅姟 -->
+		<service android:name="com.zendaimoney.android.athena.im.service.IMSystemMsgService">
+		</service>
+ 		
+ 		<!-- 鐩戝惉鏈嶅姟 -->
+ 		<service android:name="com.zendaimoney.android.athena.im.service.ConnectListenerService">
+ 		</service>
+ 		
+ 		<receiver android:name="com.zendaimoney.android.athena.receiver.ShutDownBroadcastReceiver">  
+            <intent-filter>   
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>  
+            </intent-filter>   
+        </receiver> 
+        
+ 		<receiver android:name="com.zendaimoney.android.athena.receiver.BootBroadcastReceiver">  
+            <intent-filter>   
+<!-- 寮�満骞挎挱 -->     <action android:name="android.intent.action.BOOT_COMPLETED"/>  
+            </intent-filter>   
+        </receiver> 
+        
+ 		<receiver android:name="com.zendaimoney.android.athena.receiver.NetChangeReceiver">  
+            <intent-filter>   
+			     <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>  
+            </intent-filter>   
+        </receiver>
+    </application>
+
+</manifest>

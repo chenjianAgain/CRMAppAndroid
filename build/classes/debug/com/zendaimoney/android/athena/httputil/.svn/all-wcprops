@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil
+END
+UrlStrings.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/UrlStrings.class
+END
+HttpUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/HttpUtil.class
+END
+CustomerHttpClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/CustomerHttpClient.class
+END
+HttpUtil$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/HttpUtil$1.class
+END
+HttpUtil$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/HttpUtil$2.class
+END
+EasySSLSocketFactory.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/EasySSLSocketFactory.class
+END
+EasyX509TrustManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/EasyX509TrustManager.class
+END
+HttpUtil$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/HttpUtil$3.class
+END
+CustomerHttpClient$NetworkChangeReceiver.class
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/zendaimoney/!svn/ver/32754/Prometheus/code/trunk/android/Athena/build/classes/debug/com/zendaimoney/android/athena/httputil/CustomerHttpClient$NetworkChangeReceiver.class
+END

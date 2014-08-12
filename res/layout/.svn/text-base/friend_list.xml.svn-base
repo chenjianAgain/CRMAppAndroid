@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/headerbg" >
+
+        <!-- 99cccc  339999 -->
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/backbtn" />
+
+        <TextView
+            android:id="@+id/remind_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/choicegroup"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="选择一个群"
+        android:textColor="@color/bule"
+        android:layout_below="@+id/title"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/list_part"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/choicegroup"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/remindlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <include
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            layout="@layout/letterlist" />
+    </LinearLayout>
+
+    <com.zendaimoney.android.athena.zxing.view.HorizontalListView
+        android:id="@+id/choicelist"
+        android:layout_below="@+id/list_part"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@color/grey">
+    </com.zendaimoney.android.athena.zxing.view.HorizontalListView>
+
+</RelativeLayout>
