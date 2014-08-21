@@ -62,7 +62,7 @@ public class HorizontalListView extends AdapterView<ListAdapter> {
 		super(context, attrs);
 		initView();
 	}
-
+// success test
 	private synchronized void initView() {
 		mLeftViewIndex = -1;
 		mRightViewIndex = 0;

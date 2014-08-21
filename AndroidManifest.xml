@@ -33,7 +33,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" 
         >
-        
+         
         <activity
             android:name="com.zendaimoney.android.athena.MainActivity"
             android:label="@string/app_name"
