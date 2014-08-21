@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/customer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ico_man_small_2x"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/customer_info_layout"
+        android:layout_toRightOf="@id/customer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刘晓晓"
+             />
+        <TextView
+            android:id="@+id/customer_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一般"
+             />
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/customer_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ico_call_2x"
+        android:contentDescription="@null"
+        android:layout_alignParentRight="true" />
+    
+
+</RelativeLayout>
