@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/chance_titlebar" />
+    
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundgrey"
+        android:focusable="false"
+        android:hint="搜索" />
+
+    <RadioGroup
+        android:id="@+id/main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tab_2x"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_btn_customer"
+            style="@drawable/chance_selector"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:singleLine="true"
+            android:drawableTop="@drawable/btn_tab_general_2x"
+            android:gravity="center"
+            android:text="@string/yiban" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_business"
+            style="@drawable/chance_selector"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:singleLine="true"
+            android:drawableTop="@drawable/btn_tab_intensity_2x"
+            android:gravity="center"
+            android:text="@string/qianglie" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_product"
+            style="@drawable/chance_selector"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:singleLine="true"
+            android:drawableTop="@drawable/btn_tab_like_2x"
+            android:gravity="center"
+            android:text="@string/ganxingqu" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_set"
+            style="@drawable/chance_selector"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:singleLine="true"
+            android:drawableTop="@drawable/btn_tab_file_2x"
+            android:gravity="center"
+            android:text="@string/daiguilei" />
+    </RadioGroup>
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1.0"
+         />
+
+</LinearLayout>
